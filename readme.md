@@ -10,4 +10,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Git clone the project directory from github using the command git clone https://github.com/ObelusFamily/Anythink-Market-elmug.git.
+2. Install docker. 
+3. Fom the project root directory run docker-compose up. 
+4. If Docker is working correctly, the backend should be running and able to connect to your local database.Check by pointing your browser to http://localhost:3000/api/ping
+5. Create a new user on http://localhost:3001/register to create a new user.
